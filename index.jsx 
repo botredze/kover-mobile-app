@@ -1,0 +1,11 @@
+ <WebView
+              ref={webViewRef}
+              source={{ uri: COVER }}
+              scalesPageToFit={false} 
+              javaScriptEnabled={true}
+              domStorageEnabled={true}
+              useWebKit={true} 
+              allowsBackForwardNavigationGestures={false}
+              originWhitelist={["http://*"]}
+              mixedContentMode='always'
+            />
